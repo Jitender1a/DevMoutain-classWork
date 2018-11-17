@@ -1,0 +1,1 @@
+Select * from product Where product_id=$1; 

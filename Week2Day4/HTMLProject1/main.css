@@ -1,0 +1,49 @@
+body{
+    background-color: lightcoral; 
+}
+
+.outer-box{
+    width:75%;
+    height:65vh;
+    background-color: #999;
+    margin: 17vh auto;
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+.inner-box{
+    width:75%;
+    height:500px;
+    background:black;
+    margin: auto; 
+    position: relative;
+}
+
+.inner-box div{
+    width:45px;
+    height:45px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.inner-box div:nth-child(1){
+    top:0;
+    left:0;
+}
+
+.inner-box div:nth-child(2){
+    top:0;
+    right:0;
+}
+
+.inner-box div:nth-child(3){
+    bottom:0;
+    right:0;
+}
+
+.inner-box div:nth-child(4){
+    bottom:0;
+    left:0;
+}
